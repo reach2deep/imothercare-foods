@@ -4,11 +4,11 @@ import { Component } from '@angular/core';
 
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: 'app-welcome',
+  templateUrl: 'welcome-page.html',
+  styleUrls: ['welcome-page.scss'],
 })
-export class HomePage {
+export class WelcomePage {
 
   constructor(private navCtrl: NavController) {
 
