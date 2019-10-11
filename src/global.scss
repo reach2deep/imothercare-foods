@@ -1,26 +1,87 @@
-/*
- * App Global CSS
- * ----------------------------------------------------------------------------
- * Put style rules here that you want to apply globally. These styles are for
- * the entire app and not just one component. Additionally, this file can be
- * used as an entry point to import other CSS/Sass files to be included in the
- * output CSS.
- * For more information on global stylesheets, visit the documentation:
- * https://ionicframework.com/docs/layout/global-stylesheets
- */
 
-/* Core CSS required for Ionic components to work properly */
-@import "~@ionic/angular/css/core.css";
 
-/* Basic CSS for apps built with Ionic */
-@import "~@ionic/angular/css/normalize.css";
-@import "~@ionic/angular/css/structure.css";
-@import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+body, html {
+    font-family: 'Sarabun', sans-serif;
+    color: #111;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+}
 
-/* Optional CSS utils that can be commented out */
-@import "~@ionic/angular/css/padding.css";
-@import "~@ionic/angular/css/float-elements.css";
-@import "~@ionic/angular/css/text-alignment.css";
-@import "~@ionic/angular/css/text-transformation.css";
-@import "~@ionic/angular/css/flex-utils.css";
+p {
+	font-size:1rem;
+	color: #1f1f1f;
+}
+input.form-control {
+    height: 50px;
+    background: #f3f3f3;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    padding: 0 1em;
+    font-size: 1rem;
+    /* text-transform: capitalize; */
+    width: 100%;
+    /* margin: 0 auto; */
+    display: block;
+    box-sizing: border-box;
+}
+input.form-control:focus, button {
+  box-shadow: none;
+  outline: 0;
+}
+.form-group {
+    margin-bottom: 1em;
+}
+.text-center {
+	text-align:center;
+}
+p.form_info {
+    font-size: 1rem;
+    /* text-transform: capitalize; */
+    color: #949494;
+}
+p.form_info a {
+    color: #1f1f1f;
+}
+.blue {
+	color:#1877f2;
+}
+.btn_login {
+    background: #40c15a;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1em;
+    border: 1px solid #40c15a;
+    width: 80%;
+    padding: 0.9em;
+    margin: 0 auto;
+    display: table;
+    height: 50px;
+}
+
+.v_7 {
+  height: 70vh;
+}
+
+.login_banner {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_form form {
+    width: 85%;
+    margin: 0 auto;
+}

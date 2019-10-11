@@ -1,4 +1,7 @@
+import { NavController } from '@ionic/angular';
 import { Component } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-home',
@@ -7,6 +10,12 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(private navCtrl: NavController) {
+
+  }
+
+  goToLogin() {
+    this.navCtrl.navigateRoot('/login');
+  }
 
 }

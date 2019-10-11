@@ -1,1 +1,41 @@
 
+.welcome_slide {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome_cont {
+  text-align: center;
+}
+.welcome_cont h4 {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    margin-bottom: 0.5em;
+    color: #0c0c0c;
+}
+.welcome_cont p {
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-bottom: 0.5em;
+    color: #b2b2b2;
+    width: 68%;
+    margin: 0 auto;
+}
+.btn_login {
+    background: #40c15a;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1.2em;
+    border: 1px solid #40c15a;
+    width: 80%;
+    padding: 0.6em;
+    margin: 0 auto;
+    display: table;
+}
+.welcome_cont {
+    height: 35vh;
+}
+.login_box {
+    height: 15vh;
+}
