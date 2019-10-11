@@ -19,6 +19,5 @@ export class SignUpVerifyComponent implements OnInit {
 
   goToFinish() {
     this.navCtrl.navigateRoot('sign-up/finish');
-    
   }
 }
