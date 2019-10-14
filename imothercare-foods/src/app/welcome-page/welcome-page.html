@@ -1,0 +1,66 @@
+<ion-content fullscreen padding scroll-y="false">
+  <ion-slides #mySlider  pager="true" [options]="slideOpts">
+    <ion-slide>
+      <section class="welcome_box">
+        <div class="welcome_slide" style="
+        background: url(&quot;assets/slider.jpg&quot;);
+        background-size: cover;
+        margin-bottom: 2em;
+    ">
+          <!-- <img src="assets/slider.jpg" class="img-fluid" alt=""> -->
+        </div>
+        <div class="welcome_cont">
+          <h4> choose your location and restaurant</h4>
+          <p>We deliver to your home or office, choose from our daily MAGIC & HEALTHY menu</p>
+        </div>
+        <!-- <div class="login_box">
+          <button type="button" class="btn btn_orange" name="button">Next</button>
+          <ion-button size="large" class="btn">Next</ion-button>
+        </div> -->
+      </section>
+    </ion-slide>
+    <ion-slide>
+      <section class="welcome_box">
+        <div class="welcome_slide"  style="
+        background: url(&quot;assets/slide_2.jpg&quot;);
+        background-size: cover;
+        margin-bottom: 2em;
+    ">
+          <!-- <img src="assets/slide_2.jpg" class="img-fluid" alt=""> -->
+        </div>
+        <div class="welcome_cont">
+          <h4>Order food</h4>
+          <p>Place an order and our courier will come in minutes. If we fail to deliver within the time limit you get 50% off.</p>
+        </div>
+        <!-- <div class="login_box">
+          <button type="button" class="btn btn_orange" name="button">Next</button>
+          <ion-button size="large" class="btn">Next</ion-button>
+        </div> -->
+      </section>
+    </ion-slide>
+    <ion-slide>
+      <section class="welcome_box">
+        <div class="welcome_slide" style="
+        background: url(&quot;assets/slider_3.jpg&quot;);
+        background-size: cover;
+        margin-bottom: 2em;
+    ">
+          <!-- <img src="assets/slider_3.jpg" class="img-fluid" alt=""> -->
+        </div>
+        <div class="welcome_cont">
+          <h4>Enjoy</h4>
+          <p>Leave your review and collect coupouns to use with the next order.</p>
+          <div class="start_order">
+            <!-- <button type="button" class="btn btn_green button-positive" name="button" (click)="goToLogin()">Start</button> -->
+            <ion-button class="btn btn_green button-positive" color="favorite" (click)="goToLogin()">start</ion-button>
+          </div>
+        </div>
+        <!-- <div class="login_box">
+          <button type="button" class="btn btn_green" name="button" (click)="goToLogin()">Start</button>
+          <ion-button size="large" class="btn">Start</ion-button>
+        </div> -->
+      </section>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>

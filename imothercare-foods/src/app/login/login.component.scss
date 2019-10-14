@@ -1,0 +1,54 @@
+.social_link h6 {
+	font-size:1rem;
+}
+
+
+.social_link {
+    text-align: center;
+    margin-top:0em;
+}
+.social_link h6 {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0.8em;
+}
+
+.login_form form .btn_login {
+	width:100%;
+}
+.social_link h6 span {
+    margin-right: 0.5em;
+    position: relative;
+    top: 2px;
+}
+.social_link h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 0em;
+    margin-bottom: 1.2em;
+    margin-right: 1.3em;
+}
+
+.social_icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.social_link p {
+    color: #949494;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.social_icons h6:last-child {
+    margin-right: 0 !important;
+}
+.login_banner img {
+    width: 85%;
+}
+
+.login_banner {
+    height: 36vh;
+}
