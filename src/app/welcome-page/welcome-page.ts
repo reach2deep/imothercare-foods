@@ -10,9 +10,11 @@ import { Component } from '@angular/core';
 })
 export class WelcomePage {
 
-  constructor(private navCtrl: NavController) {
 
+
+  constructor(private navCtrl: NavController) {
   }
+
 
   goToLogin() {
     this.navCtrl.navigateRoot('/login');

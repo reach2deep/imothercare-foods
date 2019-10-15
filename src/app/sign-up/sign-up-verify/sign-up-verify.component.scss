@@ -22,8 +22,8 @@
     text-transform: capitalize;
     margin-bottom: 0.5em;
     color: #b2b2b2;
-    width: 68%;
-    margin: 0 auto;
+    width: 75%;
+    margin: 0.6em auto;
 }
 .verify_cod ul li .form-control {
     border-radius: 0;
@@ -84,4 +84,9 @@
   background: #ffbf42;
   width: 100%;
   border: 1px solid #ffbf42;
+}
+
+.login_box {
+  width: 75%;
+  margin: 0 auto;
 }

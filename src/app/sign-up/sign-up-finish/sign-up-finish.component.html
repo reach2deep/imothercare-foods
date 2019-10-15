@@ -1,8 +1,12 @@
-<ion-content fullscreen>
+<ion-content fullscreen scroll-y="false">
 <section class="welcome_box sign_up3">
-        <div class="login_banner">
-            <div class="profile_page">
-              <img src="img/profile.jpg" alt="profile">
+        <div class="login_banner" style="
+        background: url(&quot;assets/profile_bg.jpg&quot;);
+        background-size: cover;
+        margin-bottom: 4em;
+    ">
+            <div class="profile_page" >
+              <img src="assets/profile.jpg" alt="profile">
             </div>
         </div>
         <div class="login_form v_7">
@@ -17,11 +21,12 @@
                     <input type="text" class="form-control" placeholder="Area">
                 </div>
                 <div class="form-group text-center">
-                <button type="button" class="btn_login" name="button" (click)="goToHome()">Finish</button>
+                <ion-button class="btn btn_blue button-positive" color="favorite" (click)="goToHome()">Finish</ion-button>
+                <!-- <button type="button" class="btn btn_blue" name="button" (click)="goToHome()">Finish</button> -->
               </div>
              </form>
-  
+
         </div>
-  
+
       </section>
     </ion-content>

@@ -1,0 +1,237 @@
+.home_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+.search_box h6 {
+    background: #fa5b55;
+    color: #fff;
+    padding:0.5em 1.2em;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 0;
+}
+.search_box h6 span {
+    margin-right: 0.8em;
+    width: 17px;
+}
+.search_food {
+    margin: 0 1em;
+}
+.search_food {
+    position: relative;
+}
+
+.search_food span {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    width: 18px;
+}
+.search_food input.form-control {
+    border-radius: 50px;
+    color: #3d356f;
+    font-weight: 500;
+    height: 40px;
+    font-size: 0.8rem;
+    padding-left: 3em;
+}
+.discover_places {
+    margin: 2em 1em 2.5em 1em;
+}
+.header_home h5 {
+    FONT-WEIGHT: 800;
+    font-size:1.35em;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.discover_places ul li {
+    list-style: none;
+    display: flex;
+    margin-right: 2em;
+    flex-wrap: nowrap;
+    width: 55%;
+}
+.discover_places ul {
+    padding: 0;
+    display: flex;
+}
+.food_show {
+    width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.food_show img {
+    overflow: hidden;
+    border-radius: 5px;
+}
+.food_box h6 {
+    margin: 0;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+}
+.food_box h5 {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #b1b1b3;
+    margin: 0.2em 0;
+}
+.rating_box h6 span {
+  font-size: 0.8rem;
+  color: #b1b1b3;
+}
+.rating_box {
+    display: flex;
+}
+.rating_box h5 {
+    background: #fba133;
+    color: #fff;
+    font-size: 0.6rem;
+    text-transform: capitalize;
+    border-radius: 50px;
+    padding: 0.3em 0.8em;
+    margin-left: 0.3em;
+}
+.top_category {
+  margin:2em 1em 2.5em 1em;
+}
+.cateogry_list ul {
+    padding: 0;
+    display: flex;
+}
+.cateogry_list ul li {
+    margin-right: 1.5em;
+    list-style: none;
+    width: 30%;
+}
+.cat_shw_img {
+    width: 65px;
+}
+.cate_title h5 {
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.cate_title h6 {
+    font-size: 0.7rem;
+    color: #b1b1b3;
+    margin: 0;
+}
+.order_list ul {
+  display: flex;
+  padding: 0;
+}
+.order_list ul li {
+  margin-right: 1.8em;
+  list-style: none;
+}
+.order_again {
+  margin: 0 1em;
+}
+.order_box {
+  display: flex;
+  align-items: center;
+}
+.order_view {
+    width: 100px;
+    margin-right: 1em;
+}
+.order_name {
+    width: 180px;
+}
+.order_view img {
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.order_name h6 {
+    margin-top: 0;
+    font-size: 0.8rem;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-bottom:0.2em;
+}
+.order_name h5 {
+    margin-bottom: 0;
+    font-size:1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.order_name p {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-weight: normal;
+    margin-top:0.5em;
+    font-size:0.9rem;
+}
+.recommend {
+    margin:2em 1em 2.5em 1em;
+  }
+  .recom_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add_icon i {
+    color: #f3625d;
+    background: #fce1da;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+.recom_box .order_name p {
+    font-weight: 600;
+}
+.fixed_menu {
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.8em 0em;
+    align-items: center;
+    box-shadow: 0px 1px 2px #888, 0px 2px 12px rgba(136, 136, 136, 0.34);
+}
+.fixed_menu p {
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.menu_list {
+    text-align: center;
+}
+.menu_list img {
+    width: 20px;
+}
+section.home_box {
+    padding-bottom: 2.3em;
+}
+// .menu_list.active p {
+//     font-weight: 700;
+// }
+.menu_list ion-icon {
+    font-size: 1.3rem;
+    color: #a9a9a9;
+}
+.menu_list.active ion-icon {
+    color: #f3625d;
+}
+.menu_list.active p {
+  color: #f3625d;
+}
