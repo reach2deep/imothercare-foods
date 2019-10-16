@@ -273,3 +273,11 @@ transition: 200msright, 200ms -webkit-transform;
 transition: 200mstransform, 200msright;
 transition: 200mstransform, 200msright, 200ms -webkit-transform;
 }
+
+.header_home h5 {
+    FONT-WEIGHT: 800;
+    font-size:1.35em;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}

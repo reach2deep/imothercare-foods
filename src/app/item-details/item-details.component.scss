@@ -1,0 +1,135 @@
+.item_name h5 {
+    text-transform: capitalize;
+    font-size: 0.7rem;
+    margin: 0;
+}
+.item_name {
+    margin-left: 0.5em;
+    width: 100px;
+}
+.item_name h6 {
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 0.5em;
+}
+.item_show {
+    width: 60px;
+}
+.item_show img {
+    border-radius: 7px;
+    overflow: hidden;
+}
+.item_sec {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+.item_head {
+    display: flex;
+    align-items: center;
+}
+
+.order_name h6 {
+    margin-top: 0;
+    font-size: 0.8rem;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-bottom:0.2em;
+}
+.order_name h5 {
+    margin-bottom: 0;
+    font-size:1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.order_name p {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-weight: normal;
+    margin-top:0.5em;
+    font-size:0.9rem;
+}
+.recommend {
+    margin:1em 1em 0.5em 1em;
+  }
+  .recom_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add_icon ion-icon {
+    color: #f3625d;
+    background: #fce1da;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.recom_box .order_name p {
+    font-weight: 600;
+}
+.order_again {
+    margin: 0 1em;
+  }
+  .order_box {
+    display: flex;
+    align-items: center;
+  }
+  .order_view {
+      width: 100px;
+      margin-right: 1em;
+  }
+  .order_name {
+      width: 180px;
+  }
+  .order_view img {
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .recom_box {
+      margin-bottom: 1em;;
+  }
+  .item_name h4 {
+      margin:0;
+      font-size: 1rem;
+      text-transform: capitalize;
+  }
+  .items_popular .item_name {
+    width: 200px;
+}
+.video_cont_head {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+.video_cont_head h5 {
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+.video_cont_head h6 {
+    font-size: 0.6rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+.video_flip {
+    width: 268px;
+    position: relative;
+    margin-right: 1em;
+}
+.video_flip img {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.video_box {
+    margin: 0em 1em 0.5em 1em;
+}
+.video_slide {
+    display: flex;
+    flex-direction: row;
+}
