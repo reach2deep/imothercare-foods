@@ -9,9 +9,8 @@ import { Component, OnInit } from "@angular/core";
 })
 
 export class SignUpComponent implements OnInit {
-  
   constructor(private navCtrl: NavController,
-              private router: Router) { 
+              private router: Router) {
 
   }
 
@@ -21,6 +20,6 @@ export class SignUpComponent implements OnInit {
 
   goToVerify() {
     this.navCtrl.navigateRoot('sign-up/verify');
-    
+
   }
 }

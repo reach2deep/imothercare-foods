@@ -1,0 +1,68 @@
+<ion-content fullscreen padding overflow-scroll="true">
+    <ion-header>
+        <ion-toolbar color=" --ion-color-primary">
+          <ion-buttons slot="start">
+            <ion-back-button text="" defaultHref="home"></ion-back-button>
+          </ion-buttons>
+        </ion-toolbar>
+      </ion-header>
+  <div class="cart_cont box_margin">
+    <h3>fish tacos</h3>
+    <p>served wtih fresh max rice and your choice of homemade beans a la charra, refined beans of vegtable black beans</p>
+  </div>
+  
+    <ion-list>
+        <ion-radio-group>
+          <ion-list-header>
+              <div class="header_home box_margin">
+                  <h5> choose beans </h5>
+                </div>
+          </ion-list-header>
+      
+          <ion-item>
+            <ion-label>Beans A la charra</ion-label>
+            <ion-radio slot="start" value="biff" checked></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>Refriend Beans</ion-label>
+            <ion-radio slot="start" value="griff"></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>Vegetarian Black Beans </ion-label>
+            <ion-radio slot="start" value="buford"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-list>
+
+      <!-- Checkboxes in a List -->
+      <ion-list>
+          <ion-list-header>
+              <div class="header_home box_margin">
+                  <h5> Add Ons? </h5>
+                </div>
+          </ion-list-header>
+          <ion-item *ngFor="let entry of form">
+            <ion-label>{{entry.val}}</ion-label>
+            <ion-checkbox slot="start" [(ngModel)]="entry.isChecked"></ion-checkbox>
+          </ion-item>
+        </ion-list>
+
+        <div class="request_cont box_margin">
+          <p>For any requests that require price alterations, we'll update you bill after tyhe order is proceed</p>
+        </div>
+
+        <div class="item_amnt box_margin">
+          <div class="amnt_toggle">
+
+          </div>
+          <div class="total_price">
+            <h5>$21.50</h5>
+          </div>
+        </div>
+        <div class="cart box_margin">
+            <ion-button class="btn btn_green button-positive" color="favorite" (click)="goToSignup()">Add to Cart</ion-button>
+        </div>
+
+</ion-content>

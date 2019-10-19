@@ -1,0 +1,33 @@
+.cart_cont h3 {
+    text-transform: capitalize;
+    font-size: 2.2rem;
+}
+.cart_cont p {
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+.cart_cont h3 {
+    margin-bottom: 0;
+}
+.box_margin {
+    margin: 0 1em;
+}
+.request_cont p {
+    font-size: 1rem;
+    color: #929292;
+    line-height: 1.5;
+}
+.total_price h5 {
+    font-size: 1.5rem;
+}
+.item_amnt {
+    display: flex;
+    justify-content: space-between;
+}
+.cart.box_margin {
+    margin-bottom: 1em;
+}
+ion-label {
+    font-size: 0.9rem !important;
+}
