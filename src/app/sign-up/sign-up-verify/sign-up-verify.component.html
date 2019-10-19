@@ -2,28 +2,30 @@
 <section class="welcome_box  sign_up2">
     <div class="login_banner">
         <img src="assets/otp.png" alt="otp">
+        <div id="recaptcha-container"></div>
     </div>
     <div class="login_form">
         <div class="welcome_cont">
             <h4> Verification </h4>
             <p>Edit 4 digit number that sent to</p>
-            <p>+62541458765</p>
+            <p>{{ phoneNumber }}</p>
         </div>
         <div class="verify_cod">
-            <ul>
+                <input type="text" [(ngModel)]="smsCode">
+            <!-- <ul>
                 <li>
-                    <input type="text" class="form-control" placeholder="3">
+                    <input type="text" class="form-control" placeholder="">
                 </li>
                 <li>
-                    <input type="text" class="form-control" placeholder="2">
+                    <input type="text" class="form-control" placeholder="">
                 </li>
                 <li>
-                    <input type="text" class="form-control" placeholder="1">
+                    <input type="text" class="form-control" placeholder="">
                 </li>
                 <li>
-                    <input type="text" class="form-control" placeholder="0">
+                    <input type="text" class="form-control" placeholder="">
                 </li>
-            </ul>
+            </ul> -->
         </div>
     </div>
     <div class="login_box">
