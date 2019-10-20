@@ -6,7 +6,7 @@
           </ion-buttons>
         </ion-toolbar>
       </ion-header>
-      <ion-slides spaceBetween ="2.5">
+      <ion-slides>
           <ion-slide>
               <div class="item_sec item_head_box">
                   <div class="item_head">
@@ -30,53 +30,7 @@
                 </div>
                 
           </ion-slide>
-          <ion-slide>
-              <div class="item_sec item_head_box">
-                  <div class="item_head">
-                    <div class="item_show">
-                      <img src="assets/menu-thumb-2.jpg" alt="">
-                    </div>
-                    <div class="item_name">
-                       <h6>packaging</h6> 
-                       <h5>tampar proof</h5>
-                    </div>
-                  </div>
-                  <div class="item_head">
-                    <div class="item_show">
-                      <img src="assets/menu-thumb-2.jpg" alt="">
-                    </div>
-                    <div class="item_name">
-                       <h6>packaging</h6> 
-                       <h5>tampar proof</h5>
-                    </div>
-                  </div>
-                </div>
-                
-          </ion-slide>
-          <ion-slide>
-              <div class="item_sec item_head_box">
-                  <div class="item_head">
-                    <div class="item_show">
-                      <img src="assets/menu-thumb-2.jpg" alt="">
-                    </div>
-                    <div class="item_name">
-                       <h6>packaging</h6> 
-                       <h5>tampar proof</h5>
-                    </div>
-                  </div>
-                  <div class="item_head">
-                    <div class="item_show">
-                      <img src="assets/menu-thumb-2.jpg" alt="">
-                    </div>
-                    <div class="item_name">
-                       <h6>packaging</h6> 
-                       <h5>tampar proof</h5>
-                    </div>
-                  </div>
-                  
-                </div>
-                
-          </ion-slide>
+          
         </ion-slides>
       
   <!-- types of steak -->
@@ -100,7 +54,7 @@
                 </div>
           </div>
           <div class="recomm_right">
-             <div class="add_icon">
+             <div class="add_icon"  (click)="goToItemList()">
               <ion-icon class="ion_plus" name="add"></ion-icon>
              </div>
           </div>
@@ -138,28 +92,61 @@
       </div>
     </div>
   </section>
+
  <!-- video box -->
- <section class="video_box">
-  <div class="video_slide">
-    <div class="video_flip">
-      <div class="video_box">
-       <img src="assets/6.png" alt="">
-      </div>
-      <div class="video_cont_head">
-        <h5>chicken salad</h5>
-        <h6>05:30</h6>
-      </div>
-    </div>
-    <div class="video_flip">
-        <div class="video_box">
-      <img src="assets/6.png" alt="">
-        </div>
-      <div class="video_cont_head">
-        <h5>chicken salad</h5>
-        <h6>05:30</h6>
-      </div>
-    </div>
-  </div>
+ <section class="video_box_full">
+
+
+    <ion-slides slidesPerView="1.5" spaceBetween="10">
+      <ion-slide>
+          <div class="video_flip">
+              <div class="video_box">
+               <img src="assets/popular_recipe.png" alt="">
+              </div>
+              <div class="video_cont_head">
+                <h5>chicken salad</h5>
+                <h6>05:30</h6>
+              </div>
+            </div>
+      </ion-slide>
+      <ion-slide>
+          <div class="video_flip">
+              <div class="video_box">
+            <img src="assets/popular_recipe.png" alt="">
+              </div>
+            <div class="video_cont_head">
+              <h5>chicken salad</h5>
+              <h6>05:30</h6>
+            </div>
+          </div>
+      </ion-slide>
+      <ion-slide>
+          <div class="video_flip">
+              <div class="video_box">
+               <img src="assets/popular_recipe.png" alt="">
+              </div>
+              <div class="video_cont_head">
+                <h5>chicken salad</h5>
+                <h6>05:30</h6>
+              </div>
+            </div>
+      </ion-slide>
+      <ion-slide>
+          <div class="video_flip">
+              <div class="video_box">
+            <img src="assets/popular_recipe.png" alt="">
+              </div>
+            <div class="video_cont_head">
+              <h5>chicken salad</h5>
+              <h6>05:30</h6>
+            </div>
+          </div>
+      </ion-slide>
+    </ion-slides>
+
+
+
+
  </section>
    <!-- types of steak -->
    <section class="types_seak">

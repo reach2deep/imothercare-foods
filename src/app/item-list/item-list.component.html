@@ -16,6 +16,7 @@
           <ion-list-header>
               <div class="header_home box_margin">
                   <h5> choose beans </h5>
+                  <h6> ( Required ) </h6>
                 </div>
           </ion-list-header>
       
@@ -41,6 +42,7 @@
           <ion-list-header>
               <div class="header_home box_margin">
                   <h5> Add Ons? </h5>
+                  <h6> ( Optional ) </h6>
                 </div>
           </ion-list-header>
           <ion-item *ngFor="let entry of form">
@@ -55,7 +57,11 @@
 
         <div class="item_amnt box_margin">
           <div class="amnt_toggle">
-
+           <div class="count_box">
+            <ion-icon name="remove"></ion-icon>
+            <p> 2 </p>
+            <ion-icon name="add"></ion-icon>
+           </div>
           </div>
           <div class="total_price">
             <h5>$21.50</h5>

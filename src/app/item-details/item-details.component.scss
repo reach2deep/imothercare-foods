@@ -13,7 +13,8 @@
     font-size: 0.5em;
 }
 .item_show {
-    width: 60px;
+    width: 46px;
+    height: 32px;
 }
 .item_show img {
     border-radius: 7px;
@@ -27,7 +28,7 @@
 .item_head {
     display: flex;
     align-items: center;
-    margin-right: 0.5em;
+    margin-right:0.2em;
 }
 .item_head_box .item_head {
     border: 1px solid #dcdcdc;
@@ -45,7 +46,7 @@
 }
 .order_name h5 {
     margin-bottom: 0;
-    font-size:1rem;
+    font-size:0.8rem;
     text-transform: capitalize;
     font-weight: 600;
     margin-top: 0;
@@ -57,7 +58,7 @@
     text-transform: capitalize;
     font-weight: normal;
     margin-top:0.5em;
-    font-size:0.9rem;
+    font-size:0.7rem;
 }
 .recommend {
     margin:1em 1em 0.5em 1em;
@@ -136,12 +137,15 @@
 // }
 .video_slide {
     display: flex;
+    flex-direction: row;
 }
 .video_box {
     width: 250px;
-    margin-right: 2em;
-    margin-left: 0.5em;
+
 }
 .slide-zoom, .swiper-slide {
     text-align: left;
+}
+section.video_box_full  ion-slide {
+    width: 80%!important;
 }

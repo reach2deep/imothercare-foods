@@ -284,3 +284,7 @@ img {
     transition: 200mstransform, 200msright;
     transition: 200mstransform, 200msright, 200ms -webkit-transform;
     }
+    
+    .slide-zoom, .swiper-slide {
+        text-align: left;
+    }

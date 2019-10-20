@@ -41,7 +41,7 @@
     padding-left: 3em;
 }
 .discover_places {
-    margin: 2em 1em 2.5em 1em;
+    margin: 2em 0em 2.5em 1em;
 }
 // .header_home h5 {
 //     FONT-WEIGHT: 800;
@@ -101,7 +101,7 @@
     margin-left: 0.3em;
 }
 .top_category {
-  margin:2em 1em 2.5em 1em;
+  margin:2em 0em 2.5em 1em;
 }
 .cateogry_list ul {
     padding: 0;
@@ -248,4 +248,13 @@ section.home_box {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+}
+
+.discover_places ion-slide {
+    width: 70% !important;
+    justify-content: flex-start;
+}
+.cateogry_list ion-slide {
+    width: 24% !important;
+    justify-content: flex-start;
 }

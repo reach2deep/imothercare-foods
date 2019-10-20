@@ -11,6 +11,7 @@ export class ItemListComponent implements OnInit {
     { val: 'Sausage', isChecked: false },
     { val: 'Mushroom', isChecked: false }
   ];
+
   constructor() { }
 
   ngOnInit() {}
