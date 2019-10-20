@@ -21,14 +21,14 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
     IonicModule.forRoot(),
     AppRoutingModule,
     HttpClientModule,
-    JwtModule.forRoot({
-      config: {
-        tokenGetter: function  tokenGetter() {
-             return     localStorage.getItem('token'); },
-        whitelistedDomains: ['localhost:3000'],
-        blacklistedRoutes: ['http://localhost:3000/api/user/login']
-      }
-    })
+    // JwtModule.forRoot({
+    //   config: {
+    //     tokenGetter: function  tokenGetter() {
+    //          return     localStorage.getItem('token'); },
+    //     whitelistedDomains: ['localhost:3000'],
+    //     blacklistedRoutes: ['http://localhost:3000/api/user/login']
+    //   }
+    // })
   ],
   providers: [
     StatusBar,
