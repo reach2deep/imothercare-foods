@@ -11,14 +11,13 @@ import { NavController } from '@ionic/angular';
 export class HomeComponent implements OnInit {
   constructor(private navCtrl: NavController,
     private router: Router) {
-
 }
 
 ngOnInit() {
-
 }
+
 goToItems() {
 this.navCtrl.navigateRoot('/items');
-
 }
+
 }

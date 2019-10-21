@@ -14,7 +14,9 @@
     display: flex;
     align-items: center;
     border-top-right-radius: 0;
+    margin: 0;
 }
+
 .search_box h6 span {
     margin-right: 0.8em;
     width: 17px;
@@ -65,6 +67,7 @@
     width: 200px;
     border-radius: 5px;
     overflow: hidden;
+    height: 125px;
 }
 
 .food_show img {
@@ -83,6 +86,12 @@
     color: #b1b1b3;
     margin: 0.2em 0;
     font-weight: 500;
+}
+.food_box h5.text_overflow {
+    width: 16em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .rating_box h6 span {
   font-size: 0.8rem;
@@ -257,4 +266,15 @@ section.home_box {
 .cateogry_list ion-slide {
     width: 24% !important;
     justify-content: flex-start;
+}
+.ion_main_head ion-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 0.8em;
+    align-items: center;
+}
+.ion_main_head ion-buttons {
+    width: 100%;
+    justify-content: flex-end;
 }
