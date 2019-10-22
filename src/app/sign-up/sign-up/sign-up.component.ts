@@ -15,7 +15,8 @@ export class SignUpComponent implements OnInit {
   constructor(private navCtrl: NavController,
               private router: Router,
               private formBuilder: FormBuilder,
-              private authService: AuthService) {
+              //private authService: AuthService
+              ) {
 
   }
 
