@@ -1,20 +1,53 @@
 
 <ion-content fullscreen padding overflow-scroll="true">
 <section class="home_box">
+
     <!-- home header -->
-    <div class="home_header">
-      <div class="search_box">
-        <h6>  <span> <img src="assets/location-pin.png" alt=""> </span> Velachery..</h6>
+    <ion-app>
+      <ion-menu side="start">
+        <ion-header>
+          <ion-toolbar translucent>
+            <ion-title>Menu</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content>
+          <ion-list>
+            <ion-item>
+              <ion-icon name="home" slot="start"></ion-icon>
+              <ion-label>Home</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-icon name="person" slot="start"></ion-icon>
+              <ion-label>Profile</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-icon name="chatbubbles" slot="start"></ion-icon>
+              <ion-label>Messages</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-icon name="settings" slot="start"></ion-icon>
+              <ion-label>Settings</ion-label>
+            </ion-item>
+          </ion-list>
+        </ion-content>
+      </ion-menu>
+      <div class="ion_main_head" main>
+        <ion-header>
+            <div class="search_box">
+                <h6>  <span> <img src="assets/location-pin.png" alt=""> </span> Velachery..</h6>
+              </div>
+          <ion-toolbar>
+            <ion-buttons slot="start">
+              <ion-menu-button>
+                  <div class="profile_small">
+                      <img src="assets/profile_home.png" alt="">
+                    </div>
+              </ion-menu-button>
+            </ion-buttons>
+          </ion-toolbar>
+        </ion-header>
       </div>
-      <div class="profile_small">
-        <img src="assets/profile_home.png" alt="">
-      </div>
-    </div>
-    <!-- search box -->
-    <div class="search_food">
-      <input type="text" class="form-control" placeholder="What are you craving for?">
-      <span> <img src="assets/search_addr.png" alt=""> </span>
-    </div>
+    </ion-app>
     <!-- discover foods -->
     <div class="discover_places">
       <div class="header_home">
@@ -27,7 +60,7 @@
               <img src="assets/surprise.png" alt="">
             </div>
             <h6>Magic Menu</h6>
-            <h5>Surprise dish from our Surprise chef</h5>
+            <h5 class="text_overflow">Surprise dish from our Surprise chef</h5>
             <div class="rating_box">
               <h6>4.8 <span> (2.8 ratings) </span> </h6>
               <h5>free delivery</h5>
@@ -41,7 +74,7 @@
               <img src="assets/img-7.jpg" alt="">
             </div>
             <h6>Super Bowl</h6>
-            <h5>Meals in bowls are trending</h5>
+            <h5 class="text_overflow">Meals in bowls are trending</h5>
             <div class="rating_box">
               <h6>4.8 <span> (2.8 ratings) </span> </h6>
               <h5>free delivery</h5>
